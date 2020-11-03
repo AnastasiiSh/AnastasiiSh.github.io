@@ -1,0 +1,44 @@
+[
+  {
+    "name": "BIMViewer#setCamera",
+    "filePath": "src/BIMViewer.js",
+    "lines": [
+      {
+        "lineNumber": 1315,
+        "line": "    /**"
+      },
+      {
+        "lineNumber": 1316,
+        "line": "     * Sets the camera to the given position."
+      },
+      {
+        "lineNumber": 1317,
+        "line": "     *"
+      },
+      {
+        "lineNumber": 1318,
+        "line": "     * @param {Number[]} [params.eye] Eye position."
+      },
+      {
+        "lineNumber": 1319,
+        "line": "     * @param {Number[]} [params.look] Point of interest."
+      },
+      {
+        "lineNumber": 1320,
+        "line": "     * @param {Number[]} [params.up] Direction of \"up\"."
+      },
+      {
+        "lineNumber": 1321,
+        "line": "     */"
+      },
+      {
+        "lineNumber": 1322,
+        "line": "    setCamera(params) {"
+      }
+    ],
+    "codeParams": [
+      "params"
+    ],
+    "docParams": []
+  }
+]
