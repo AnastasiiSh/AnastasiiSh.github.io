@@ -93,7 +93,7 @@ function xViewer(canvas, preserveDrawingBuffer) {
     * Array of four integers between 0 and 255 representing RGBA colour components. This defines colour for highlighted elements. You can change this value at any time with instant effect.
     * @member {Number[]} xViewer#highlightingColour
     */
-    this.highlightingColour = [55, 55, 55, 55];
+    this.highlightingColour = [9, 174, 12, 255];
     /**
     * Array of four floats. It represents Light A's position <strong>XYZ</strong> and intensity <strong>I</strong> as [X, Y, Z, I]. Intensity should be in range 0.0 - 1.0.
     * @member {Number[]} xViewer#lightA
@@ -109,7 +109,7 @@ function xViewer(canvas, preserveDrawingBuffer) {
     * Switch between different navigation modes for left mouse button. Allowed values: <strong> 'pan', 'zoom', 'orbit' (or 'fixed-orbit') , 'free-orbit' and 'none'</strong>. Default value is <strong>'orbit'</strong>;
     * @member {String} xViewer#navigationMode
     */
-    this.navigationMode = 'pan';
+    this.navigationMode = 'none';
 
     /**
     * Switch between different rendering modes. Allowed values: <strong> 'normal', 'x-ray'</strong>. Default value is <strong>'normal'</strong>;
