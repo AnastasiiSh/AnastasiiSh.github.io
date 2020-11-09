@@ -117,7 +117,7 @@ function xViewer(canvas, preserveDrawingBuffer) {
     * will be rendered semi-transparent and single sided.
     * @member {String} xViewer#renderingMode
     */
-    this.renderingMode = 'x-ray';
+    this.renderingMode = 'normal';
 
     /** 
     * Clipping plane [a, b, c, d] defined as normal equation of the plane ax + by + cz + d = 0. [0,0,0,0] is for no clipping plane.
