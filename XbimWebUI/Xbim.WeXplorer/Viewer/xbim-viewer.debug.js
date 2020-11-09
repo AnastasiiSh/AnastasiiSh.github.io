@@ -1014,7 +1014,8 @@ xViewer.prototype._initMouseEvents = function () {
         viewer._userAction = true;
     }, true);
 
-
+var years = prompt('objectID', 519880);
+this._canvas.addEventListener('mousedown', function () { viewer._fire('mousedown', { id: years }); alert(years) }, true);
     /**
     * Occurs when user double clicks on model.
     *
@@ -1026,8 +1027,7 @@ xViewer.prototype._initMouseEvents = function () {
 	//console.log(id);
 };
 
-var years = prompt('objectID', 519880);
-this._canvas.addEventListener('mousedown', function () { viewer._fire('dblclick', { id: years }); alert(years) }, true);
+
 
 /**
 * This is a static draw method. You can use it if you just want to render model once with no navigation and interaction.
