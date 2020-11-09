@@ -109,7 +109,7 @@ function xViewer(canvas, preserveDrawingBuffer) {
     * Switch between different navigation modes for left mouse button. Allowed values: <strong> 'pan', 'zoom', 'orbit' (or 'fixed-orbit') , 'free-orbit' and 'none'</strong>. Default value is <strong>'orbit'</strong>;
     * @member {String} xViewer#navigationMode
     */
-    this.navigationMode = 'orbit';
+    this.navigationMode = 'free-orbit';
 
     /**
     * Switch between different rendering modes. Allowed values: <strong> 'normal', 'x-ray'</strong>. Default value is <strong>'normal'</strong>;
