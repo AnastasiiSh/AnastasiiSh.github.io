@@ -88,7 +88,7 @@ function xViewer(canvas, preserveDrawingBuffer) {
     * Array of four integers between 0 and 255 representing RGBA colour components. This defines background colour of the viewer. You can change this value at any time with instant effect.
     * @member {Number[]} xViewer#background
     */
-    this.background = [9, 174, 12, 255];
+    this.background = [130, 130, 130, 130];
     /**
     * Array of four integers between 0 and 255 representing RGBA colour components. This defines colour for highlighted elements. You can change this value at any time with instant effect.
     * @member {Number[]} xViewer#highlightingColour
