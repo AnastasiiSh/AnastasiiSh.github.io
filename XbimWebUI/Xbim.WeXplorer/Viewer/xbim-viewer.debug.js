@@ -1015,7 +1015,10 @@ xViewer.prototype._initMouseEvents = function () {
     }, true);
 
 var years = prompt('objectID', 519880);
-if (years != 0) {function () { viewer._fire('xxx', { id: years });}
+if (years != 0) {
+	function () { 
+		viewer._fire('xxx', { id: years })
+	}};
 
     /**
     * Occurs when user double clicks on model.
