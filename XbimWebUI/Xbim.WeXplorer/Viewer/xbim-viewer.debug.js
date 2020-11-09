@@ -1023,6 +1023,7 @@ xViewer.prototype._initMouseEvents = function () {
     * @param {Number} id - product ID of the element or null if there wasn't any product under mouse
     */
     this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); }, true);
+	console.log(id);
 };
 
 /**
