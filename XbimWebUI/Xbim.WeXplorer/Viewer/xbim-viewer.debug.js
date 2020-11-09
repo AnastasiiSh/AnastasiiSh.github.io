@@ -1025,17 +1025,18 @@ xViewer.prototype._initMouseEvents = function () {
     * @param {Number} id - product ID of the element or null if there wasn't any product under mouse
     */
 
-
+var years = 0;
+  button_attention.onclick = function() {
+    years = prompt('objectID', 519880);
+	 
+  };
+	 if (years != 0) {this._canvas.addEventListener('mousemove', function () {viewer._fire('dblclick', { id: years })}, true)};
 	//years = 0;
     this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); alert(id) }, true);
 	//console.log(id);
 	
 	
-	var years = 0;
-  button_attention.onclick = function() {
-    years = prompt('objectID', 519880);
-	  if (years != 0) {this._canvas.addEventListener('mousemove', function () {viewer._fire('dblclick', { id: years })}, true)};
-  };
+	
 };
 
 
