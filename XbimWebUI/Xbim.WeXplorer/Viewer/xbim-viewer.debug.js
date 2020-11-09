@@ -1014,7 +1014,7 @@ xViewer.prototype._initMouseEvents = function () {
         viewer._userAction = true;
     }, true);
 
-var years = prompt('objectID', 519880);
+//var years = prompt('objectID', 519880);
 //if (years != 0) {
 	//function () { 
 	//	viewer._fire('xxx', { id: years })
