@@ -1024,7 +1024,7 @@ var years = prompt('objectID', 519880);
     * @param {Number} id - product ID of the element or null if there wasn't any product under mouse
     */
 	
-//if (years != 0) {function () { viewer._fire('dblclick', { id: years })}};
+if (years != 0) {viewer._fire('dblclick', { id: years })};
     this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); alert(id) }, true);
 	//console.log(id);
 };
