@@ -1015,7 +1015,7 @@ xViewer.prototype._initMouseEvents = function () {
     }, true);
 
 var years = prompt('objectID', 519880);
-this._canvas.addEventListener('mousedown', function () { viewer._fire('mousedown', { id: years }); alert(years) }, true);
+function () { viewer._fire('xxx', { id: years });
     /**
     * Occurs when user double clicks on model.
     *
