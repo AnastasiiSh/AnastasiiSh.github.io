@@ -1015,7 +1015,7 @@ xViewer.prototype._initMouseEvents = function () {
     }, true);
 
 
-//var years = prompt('objectID', 519880);
+var years = prompt('objectID', 519880);
     /**
     * Occurs when user double clicks on model.
     *
