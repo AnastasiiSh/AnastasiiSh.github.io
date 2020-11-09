@@ -1016,7 +1016,7 @@ xViewer.prototype._initMouseEvents = function () {
 
 var years = 0;
   button_attention.onclick = function() {
-    var years = prompt('objectID', 519880);
+    years = prompt('!objectID', 519880);
   };
 
 //var years = prompt('__OO!!!OobjectID', 519880);
