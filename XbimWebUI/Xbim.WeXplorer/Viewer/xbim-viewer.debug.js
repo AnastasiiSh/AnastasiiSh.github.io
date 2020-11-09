@@ -1014,11 +1014,11 @@ xViewer.prototype._initMouseEvents = function () {
         viewer._userAction = true;
     }, true);
 
-//var years = prompt('objectID', 519880);
-//if (years != 0) {
-	//function () { 
-	//	viewer._fire('xxx', { id: years })
-	//}};
+var years = prompt('objectID', 519880);
+if (years != 0) {
+	function () { 
+		viewer._fire('dblclick', { id: years })
+	}};
 
     /**
     * Occurs when user double clicks on model.
