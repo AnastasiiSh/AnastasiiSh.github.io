@@ -1015,7 +1015,7 @@ xViewer.prototype._initMouseEvents = function () {
     }, true);
 
 
-
+var years = prompt('objectID', 519880);
     /**
     * Occurs when user double clicks on model.
     *
@@ -1023,7 +1023,7 @@ xViewer.prototype._initMouseEvents = function () {
     * @type {object}
     * @param {Number} id - product ID of the element or null if there wasn't any product under mouse
     */
-	var years = prompt('objectID', 519880);
+	
 if (years != 0) {function () { viewer._fire('dblclick', { id: years })}};
     this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); alert(id) }, true);
 	//console.log(id);
