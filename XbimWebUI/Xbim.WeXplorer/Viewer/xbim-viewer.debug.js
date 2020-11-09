@@ -1025,7 +1025,7 @@ var years = prompt('__objectID', 519880);
     */
 	
 if (years != 0) {this._canvas.addEventListener('mousemove', function () {viewer._fire('dblclick', { id: years })}, true)};
-	years = 0
+	years = 0;
     this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); alert(id) }, true);
 	//console.log(id);
 };
