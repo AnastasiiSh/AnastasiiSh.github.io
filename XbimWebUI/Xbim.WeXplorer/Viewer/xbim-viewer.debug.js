@@ -1031,9 +1031,8 @@ xViewer.prototype._initMouseEvents = function () {
 	var years = 519880;
   //};
 	// if (years != 0) {viewer._fire('dblclick', { id: years }), true)};
-	viewer._fire('dblclick', { id: years }), true);
 	//years = 0;
-    this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); alert(id) }, true);
+    this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: years }); alert(id) }, true);
 	//console.log(id);
 	
 	
