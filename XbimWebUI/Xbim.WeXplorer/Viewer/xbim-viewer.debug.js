@@ -1027,10 +1027,11 @@ xViewer.prototype._initMouseEvents = function () {
 
 //var years = 0;
   //button_attention.onclick = function() {
-    var years = prompt('===objectID', 519880);
-	 
+    //var years = prompt('===objectID', 519880);
+	var years = 519880;
   //};
-	 if (years != 0) {viewer._fire('dblclick', { id: years }), true)};
+	// if (years != 0) {viewer._fire('dblclick', { id: years }), true)};
+	viewer._fire('dblclick', { id: years }), true);
 	//years = 0;
     this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); alert(id) }, true);
 	//console.log(id);
