@@ -1045,7 +1045,7 @@ xViewer.prototype._initMouseEvents = function () {
     var def = keyBox.target.value;
 	 $("#button_show").click(function () {
            viewer._fire('dblclick', { id: def });
-        });
+      //  });
     
 //}
 	//keyBox.addEventListener("change", onchange);
