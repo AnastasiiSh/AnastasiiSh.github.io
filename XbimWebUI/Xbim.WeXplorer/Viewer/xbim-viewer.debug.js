@@ -1036,23 +1036,23 @@ xViewer.prototype._initMouseEvents = function () {
 //this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: years }); alert(id) }, true);
 
 	//console.log(id);
-	var keyBox = document.search.num_el;
+	//var keyBox = document.search.num_el;
  
 // обработчик изменения текста
 //function onchange(e){
     
     // получаем новое значение
-    var def = keyBox.target.value;
-	 $("#button_show").click(function () {
-           viewer._fire('dblclick', { id: def });
+    //var def = keyBox.target.value;
+	
       //  });
     
 //}
 	//keyBox.addEventListener("change", onchange);
 	//button_show
 	// 636072
-	//var def = 519880;
-	
+	var def = 519880;
+	 $("#button_show").click(function () {
+           viewer._fire('dblclick', { id: def });
 	
 };
 
