@@ -1028,15 +1028,16 @@ xViewer.prototype._initMouseEvents = function () {
 //var years = 0;
   //button_attention.onclick = function() {
     //var years = prompt('===objectID', 519880);
-	var years = 519880;
+	//////////var years = 519880; last
   //};
 	// if (years != 0) {viewer._fire('dblclick', { id: years }), true)};
 	//years = 0;
-    this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); }, true);
+    //////////this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: id }); }, true); last
 //this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: years }); alert(id) }, true);
 
 	//console.log(id);
 	
+	//button_show
 	
 	
 };
