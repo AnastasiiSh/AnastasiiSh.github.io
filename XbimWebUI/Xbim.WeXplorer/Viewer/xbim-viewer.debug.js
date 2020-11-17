@@ -1053,9 +1053,8 @@ xViewer.prototype._initMouseEvents = function () {
 	var def = 519880;
 	 $("#button_show").click(function () {
            viewer._fire('dblclick', { id: def });
-	
+	)};
 };
-
 
 
 /**
