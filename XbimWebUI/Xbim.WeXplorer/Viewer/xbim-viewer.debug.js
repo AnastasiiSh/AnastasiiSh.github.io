@@ -1051,7 +1051,7 @@ xViewer.prototype._initMouseEvents = function () {
 	//button_show
 	// 636072
 	//var def = 519880;
-	var def = document.getElementById("button_show").value;
+	var def = document.getElementById("num_el").value;
 	//console.log(def);
 	$("#button_show").click(function () {
           viewer._fire('dblclick', { id: def });
