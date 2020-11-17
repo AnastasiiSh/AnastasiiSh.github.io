@@ -1054,7 +1054,8 @@ xViewer.prototype._initMouseEvents = function () {
 	var def = document.getElementById("num_el").value;
 	//console.log(def);
 	$("#button_show").click(function () {
-          viewer._fire('dblclick', { id: def });
+          //viewer._fire('dblclick', { id: def });
+	 this._canvas.addEventListener('xxx', function () { viewer._fire('dblclick', { id: def }); }, true); 
 	});
 };
 
