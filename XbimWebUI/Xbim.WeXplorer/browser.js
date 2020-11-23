@@ -16,11 +16,19 @@
 	
          $("#button_show").button().click(function () {
          
-            
+            viewer.resetStates();
+		 viewer.renderingMode = "x-ray";
+		  viewer.setState(xState.HIGHLIGHTED, [def_el]);
                 viewer.zoomTo(parseInt(def_el));
+		 keepTarget = true;
             
         });
 
+	    
+	    
+	    
+	    
+	    
         $("#btnLocate").button().click(function () {
             var id = $(this).data("id");
             if (typeof (id) != "undefined" && viewer) {
