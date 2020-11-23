@@ -1052,9 +1052,10 @@ xViewer.prototype._initMouseEvents = function () {
 	// 636072
 	//var def = 519880;
 	var def = document.getElementById("num_el").value;
-	alert(def);
+	
 	//console.log(def);
 	$("#button_show").click(function () {
+		alert(def);
 this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: def }); }, true); 
 		//viewer._fire('dblclick', { id: def });
 	});
