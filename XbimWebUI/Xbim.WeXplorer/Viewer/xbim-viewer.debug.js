@@ -1054,11 +1054,11 @@ xViewer.prototype._initMouseEvents = function () {
 	var def = document.getElementById("num_el").value;
 	
 	//console.log(def);
-	$("#button_show").click(function () {
-		alert(def);
-this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: def }); }, true); 
+	////$("#button_show").click(function () {
+		/////alert(def);
+/////this._canvas.addEventListener('dblclick', function () { viewer._fire('dblclick', { id: def }); }, true); 
 		//viewer._fire('dblclick', { id: def });
-	});
+	/////});
 };
 
 /**
