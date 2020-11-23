@@ -11,6 +11,15 @@
         $("#semantic-model").accordion({
             heightStyle: "fill"
         });
+        
+        var def_el = document.getElementById("num_el").value;
+	
+         $("#button_show").button().click(function () {
+         
+            
+                viewer.zoomTo(parseInt(def_el));
+            
+        });
 
         $("#btnLocate").button().click(function () {
             var id = $(this).data("id");
