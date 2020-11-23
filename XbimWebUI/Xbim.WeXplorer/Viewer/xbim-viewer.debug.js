@@ -1052,12 +1052,11 @@ xViewer.prototype._initMouseEvents = function () {
 	// 636072
 	//var def = 519880;
 	var def = document.getElementById("num_el").value;
-	alert(def);
+	//alert(def);
 	//console.log(def);
 	$("#button_show").click(function () {
-          //viewer._fire('dblclick', { id: def });
-	 //this._canvas.addEventListener('xxx', function () { viewer._fire('dblclick', { id: def }); }, true); 
-	viewer._fire('dblclick', { id: def });
+	 this._canvas.addEventListener('mousemove', function () { viewer._fire('dblclick', { id: def }); }, true); 
+	//viewer._fire('dblclick', { id: def });
 	});
 };
 
