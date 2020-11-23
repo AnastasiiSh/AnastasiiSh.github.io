@@ -1056,10 +1056,10 @@ xViewer.prototype._initMouseEvents = function () {
 	//console.log(def);
 	$("#button_show").click(function () {
           //viewer._fire('dblclick', { id: def });
-	 this._canvas.addEventListener('xxx', function () { viewer._fire('dblclick', { id: def }); }, true); 
+	 //this._canvas.addEventListener('xxx', function () { viewer._fire('dblclick', { id: def }); }, true); 
+	viewer._fire('dblclick', { id: def });
 	});
 };
-
 
 /**
 * This is a static draw method. You can use it if you just want to render model once with no navigation and interaction.
