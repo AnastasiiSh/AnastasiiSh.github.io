@@ -19,8 +19,8 @@
             viewer.resetStates();
 		 viewer.renderingMode = "x-ray";
 		  viewer.setState(xState.HIGHLIGHTED, [def_el]);
-		 viewer.setState(xState.HIGHLIGHTED, [893219]);
-		 viewer.setState(xState.HIGHLIGHTED, [891362]);
+		 //viewer.setState(xState.HIGHLIGHTED, [893219]);
+		// viewer.setState(xState.HIGHLIGHTED, [891362]);
                 viewer.zoomTo(parseInt(def_el));
 		 keepTarget = true;
             
