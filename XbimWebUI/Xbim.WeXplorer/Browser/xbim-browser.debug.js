@@ -450,6 +450,8 @@ xBrowser.prototype._renderListView = function (container, entities, entityTempla
     for (var i = 0; i < entities.length; i++) {
         var entity = entities[i];
         var html = entityTemplate(entity);
+        // add alert 
+        alert(html + ' - - - - '+ entity);
 
         var tr = document.createElement('tr');
         table.appendChild(tr);
