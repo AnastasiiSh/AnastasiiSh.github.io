@@ -481,8 +481,7 @@ xBrowser.prototype._renderTreeView = function (container, roots, initSimpleTree,
 
             var li = document.createElement('li');
             li.innerHTML = html;
-            // add alert 
-        alert('NEW ---- '+html);
+           // здесь добавляетсяменюшка слева - иерархия модели и все объекты
             self._registerEntityCallBacks(li, entity);
 
             if (!ul) {
@@ -552,6 +551,8 @@ xBrowser.prototype.load = function (source) {
             if (fReader.result) {
                 //set data buffer for next processing
                 var data = JSON.parse(fReader.result);
+                 // add alert 
+        alert('data ---- '+data);
 
                 //set right utils according to the data type
                 var uk = typeof (data.FacilityDefaultLinearUnit) === "undefined";
