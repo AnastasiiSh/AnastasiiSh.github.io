@@ -451,7 +451,7 @@ xBrowser.prototype._renderListView = function (container, entities, entityTempla
         var entity = entities[i];
         var html = entityTemplate(entity);
         // add alert 
-        alert(html + ' - - - - '+ entity);
+        //alert(html + ' - - - - '+ entity);
 
         var tr = document.createElement('tr');
         table.appendChild(tr);
@@ -481,6 +481,8 @@ xBrowser.prototype._renderTreeView = function (container, roots, initSimpleTree,
 
             var li = document.createElement('li');
             li.innerHTML = html;
+            // add alert 
+        alert('NEW ---- '+html);
             self._registerEntityCallBacks(li, entity);
 
             if (!ul) {
